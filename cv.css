@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* khung */
+.cv {
+    width: 595px;
+    height: 842px;
+    background: white;
+    margin: 0 auto;
+    padding: 48px;
+    position: relative;
+}
+
+/* header */
+.header {
+    margin-bottom: 48px;
+}
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #101214;
+    margin-bottom: 4px;
+}
+.title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #101214;
+}
+
+/*  */
+.content {
+    display: flex;
+}
+
+/* cột trái */
+.left-column {
+    width: 335px;
+    padding-right: 24px;
+}
+.section-title {
+    font-size: 7px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+    margin-bottom: 8px;
+}
+.experience-item {
+    margin-bottom: 24px;
+}
+.job-title {
+    font-size: 11px;
+    font-weight: 700;
+    color: #101214;
+    margin-bottom: 2px;
+}
+.company {
+    font-size: 11px;
+    font-weight: 400;
+    color: #101214;
+    margin-bottom: 2px;
+}
+.duration {
+    font-size: 9px;
+    font-weight: 400;
+    color: #73808D;
+    margin-bottom: 8px;
+}
+.description {
+    font-size: 11px;
+    font-weight: 400;
+    color: #101214;
+    line-height: 18px;
+}
+
+/* cột phải */
+.right-column {
+    width: 140px;
+    position: absolute;
+    top: 140px;
+    left: 407px;
+    height: 558px;
+}
+.info-item {
+    margin-bottom: 24px;
+}
+.info-title {
+    font-size: 11px;
+    font-weight: 700;
+    color: #73808D;
+    margin-bottom: 8px;
+}
+.info-content {
+    font-size: 11px;
+    font-weight: 400;
+    color: #73808D;
+    line-height: 18px;
+}
+
+/* avatar */
+.avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    position: absolute;
+    top: 36px;
+    right: 115px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
